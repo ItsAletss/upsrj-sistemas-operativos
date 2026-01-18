@@ -11,6 +11,8 @@ int main() {
     init_processes(p, n);
 
     // TODO: Aquí va la lógica del scheduler
+
+    int time \
     
     print_results(p, n, "RR Scheduling");
     return 0;
