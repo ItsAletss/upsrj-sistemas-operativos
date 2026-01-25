@@ -30,7 +30,7 @@ int main() {
             if (p[i].remaining_time == p[i].burst_time){
             }
 
-            // si el proceso termina en este quantum
+            // si el proceso termins en este quantum
             if (p[i].remaining_time <= quantum){
                 time += p[i].remaining_time;
                 p[i].remaining_time = 0;
@@ -48,7 +48,6 @@ int main() {
         }
     }
 
-    // CPU ocioso
     if (!executed){
         time++;
     }
